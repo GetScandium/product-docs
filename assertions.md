@@ -12,7 +12,7 @@ Assertions are how we verify that the execution of a step gives an expected outc
 
 By clicking on the green checkmark (✅) on the Scandium toolbar, the assertion panel is displayed.
 
-![](<.gitbook/assets/image (43).png>)
+<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
 There are two broad categories of assertions you can make:
 
@@ -23,7 +23,7 @@ There are two broad categories of assertions you can make:
 
 You can assert the value of the page title, the page url, or that the page contains a certain text.
 
-![](<.gitbook/assets/image (44).png>)
+<figure><img src=".gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 #### Assert against an element on the page
 
