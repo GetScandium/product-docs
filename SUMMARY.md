@@ -16,10 +16,12 @@
 * [Variables](variables.md)
 * [System Functions](system-functions.md)
 * [Email Testing](email-testing.md)
+* [Data-driven Testing](data-driven-testing.md)
 * [Test Suites](test-suites.md)
 * [Results](results/README.md)
   * [Test results](results/test-results.md)
   * [Suite results](results/suite-results.md)
+* [Why did my test fail](why-did-my-test-fail.md)
 
 ## Test Management
 
