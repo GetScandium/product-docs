@@ -30,3 +30,4 @@
 ## INTEGRATIONS
 
 * [Continuous Integration (CI/CD)](integrations/continuous-integration-ci-cd.md)
+* [CI/CD pipelines](integrations/ci-cd-pipelines.md)
