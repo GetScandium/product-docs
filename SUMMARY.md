@@ -21,7 +21,7 @@
 * [Results](results/README.md)
   * [Test results](results/test-results.md)
   * [Suite results](results/suite-results.md)
-* [Why did my test fail](why-did-my-test-fail.md)
+* [Why did my test fail?](why-did-my-test-fail.md)
 
 ## Test Management
 
