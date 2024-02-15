@@ -47,4 +47,10 @@ To trigger a test suite to run manually, click on the kebab menu of the test sui
 
 <figure><img src=".gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
-PS: At this time of this writing, you can only trigger your test suites to run locally.
+~~PS: At this time of this writing(8/7/2023), you can only trigger your test suites to run locally.~~
+
+Hurray, you can now your test suites remotely on Scandium 🎉
+
+<figure><img src=".gitbook/assets/image (59).png" alt=""><figcaption><p>Run test suite remotely</p></figcaption></figure>
+
+If "Run Remotely" is greyed out and not clickable for you, please contact us for activation for your account.
