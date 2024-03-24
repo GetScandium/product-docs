@@ -30,11 +30,11 @@ Let's take a quick look at the available functions on Scandium:
 
 You can insert a function anywhere you can insert a variable. To use a function in the value of a text field, expand the settings of the step where you want to insert the function, then click on the "Insert function" button, and choose the desired function to insert.
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption><p>Click on insert function button</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8) (1).png" alt=""><figcaption><p>Click on insert function button</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (9).png" alt=""><figcaption><p>Select the function to insert</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Select the function to insert</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (10).png" alt=""><figcaption><p>Function inserted</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Function inserted</p></figcaption></figure>
 
 Once you select a function to insert, its notation will be added in the Text to Assign field `{{num(11)}}` . When the test is running and it gets to this step, the notation will be replaced with a randomly generated 11-digit number.
 

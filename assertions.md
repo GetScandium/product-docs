@@ -35,11 +35,11 @@ To assert against an element, on the assertions panel window, click on the big b
 
 Once the button is clicked on, the page is put into inspection mode, you can hover your mouse on any element on the page. You should see the element highlighted with a dotted border around it.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Inspecting an element to be asserted against</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Inspecting an element to be asserted against</p></figcaption></figure>
 
 Click on the element you want to assert against. Then back on the assertion panel, from the list of commands, choose your desired assertion from the dropdown.
 
-<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>Choose desired element assertion</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>Choose desired element assertion</p></figcaption></figure>
 
 Currently, you can make the following element assertions:
 

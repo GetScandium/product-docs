@@ -17,17 +17,17 @@ In order to successfully execute a test case or test suite, you will need follow
 
 Click on the projects dropdown, then click on the "View all" button
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>view all projects</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption><p>view all projects</p></figcaption></figure>
 
 From the list of projects displayed, click on the options (kebab menu) on the project card, then click on "Copy project id"
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>copy project id</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>copy project id</p></figcaption></figure>
 
 **Test ID**
 
 Applicable when you want to run a single test case. To get a test case's ID, from the tests listing page, find the desired test case, click on its options menu, then click on "Copy test Id"
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>copy test id</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>copy test id</p></figcaption></figure>
 
 **Suite ID**
 
@@ -39,55 +39,33 @@ Calling this endpoint allows you to immediately run a single test case.
 
 ### Request
 
-{% swagger method="post" path="" baseUrl="https://scr.getscandium.com/tests/execute" summary="Run a single test case" %}
-{% swagger-description %}
+## Run a single test case
+
+<mark style="color:green;">`POST`</mark> `https://scr.getscandium.com/tests/execute`
+
 Body parameter is expected in JSON format
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="x-api-token" type="String" required="true" %}
-API TOKEN
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="header" name="Content-Type" type="String" required="true" %}
-application/json
-{% endswagger-parameter %}
+| Name                                           | Type   | Description      |
+| ---------------------------------------------- | ------ | ---------------- |
+| x-api-token<mark style="color:red;">\*</mark>  | String | API TOKEN        |
+| Content-Type<mark style="color:red;">\*</mark> | String | application/json |
 
-{% swagger-parameter in="body" name="project_id" type="String" required="true" %}
-The ID of the project containing the test. This can be copied from your dashboard
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="test_id" type="String" required="true" %}
-The ID of the test to execute. This can be gotten from the test page
-{% endswagger-parameter %}
+| Name                                          | Type    | Description                                                                                                                                                                                                                                                                                                                                                            |
+| --------------------------------------------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| project\_id<mark style="color:red;">\*</mark> | String  | The ID of the project containing the test. This can be copied from your dashboard                                                                                                                                                                                                                                                                                      |
+| test\_id<mark style="color:red;">\*</mark>    | String  | The ID of the test to execute. This can be gotten from the test page                                                                                                                                                                                                                                                                                                   |
+| browser                                       | String  | <p>The browser to run this test on. Allow valued: <code>chrome</code> , <code>firefox</code> and <code>edge</code>.<br>If this value is not supplied, the default browser on the test </p><p>case will be used.</p>                                                                                                                                                    |
+| strategy                                      | String  | <p><code>await</code> or <code>callback</code> <br>Use <code>await</code> to make your runner wait until the test done executing (This can make the request take a long while before returning, depending on the length of the test case). Use <code>callback</code> to return immediately (without the result of the run).<br>Default value is <code>await</code></p> |
+| variables                                     | String  | A JSON object of key:value pairs that can be used to set or override existing global variables used in your test                                                                                                                                                                                                                                                       |
+| screenshot                                    | Boolean | <p><code>true</code> or <code>false</code><br>To determine if screenshots should be taken for each step in the run.<br>Note: screenshot will always be taken for a failed step in the test.</p>                                                                                                                                                                        |
+| retry                                         | Integer | Specify the number of times you want a failed test within the suite to be retried. Default is 0. Higher values will increase the time it takes your test to run.                                                                                                                                                                                                       |
 
-{% swagger-parameter in="body" name="browser" type="String" %}
-The browser to run this test on. Allow valued: `chrome` , `firefox` and `edge`.\
-If this value is not supplied, the default browser on the test&#x20;
-
-case will be used.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="strategy" type="String" %}
-`await` or `callback` \
-Use `await` to make your runner wait until the test done executing (This can make the request take a long while before returning, depending on the length of the test case). Use `callback` to return immediately (without the result of the run).\
-Default value is `await`
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="variables" type="String" %}
-A JSON object of key:value pairs that can be used to set or override existing global variables used in your test
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="screenshot" type="Boolean" %}
-`true` or `false`\
-To determine if screenshots should be taken for each step in the run.\
-Note: screenshot will always be taken for a failed step in the test.
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="retry" type="Integer" %}
-Specify the number of times you want a failed test within the suite to be retried. Default is 0. Higher values will increase the time it takes your test to run.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="" %}
+{% tabs %}
+{% tab title="200: OK " %}
 ```json
 {
     "data": {
@@ -121,8 +99,8 @@ Specify the number of times you want a failed test within the suite to be retrie
     "message": "Test run completed"
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 
 
@@ -154,38 +132,26 @@ Calling this endpoint allows you to immediately run a test suite. _A test suite 
 
 ### Request
 
-{% swagger method="post" path="" baseUrl="https://scr.getscandium.com/suites/execute" summary="" %}
-{% swagger-description %}
+<mark style="color:green;">`POST`</mark> `https://scr.getscandium.com/suites/execute`
 
-{% endswagger-description %}
+#### Headers
 
-{% swagger-parameter in="header" name="x-api-token" type="String" required="true" %}
-API TOKEN
-{% endswagger-parameter %}
+| Name                                           | Type             | Description |
+| ---------------------------------------------- | ---------------- | ----------- |
+| x-api-token<mark style="color:red;">\*</mark>  | String           | API TOKEN   |
+| Content-Type<mark style="color:red;">\*</mark> | application/json |             |
 
-{% swagger-parameter in="header" name="Content-Type" type="application/json" required="true" %}
+#### Request Body
 
-{% endswagger-parameter %}
+| Name                                          | Type   | Description                                                                                                                                                                                                                                                                                                                                                             |
+| --------------------------------------------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| project\_id<mark style="color:red;">\*</mark> | String | The ID of the project containing the test. This can be copied from your dashboard                                                                                                                                                                                                                                                                                       |
+| suite\_id<mark style="color:red;">\*</mark>   | String | The ID of the suite to execute. This can be gotten from the test page                                                                                                                                                                                                                                                                                                   |
+| strategy                                      | String | <p><code>await</code> or <code>callback</code> <br>Use <code>await</code> to make your runner wait until the suite done executing (This can make the request take a long while before returning, depending on the length of the test case). Use <code>callback</code> to return immediately (without the result of the run).<br>Default value is <code>await</code></p> |
+| retry                                         | String | Specify the number of times you want a failed test within the suite to be retried. Default is 0. Higher values will increase the time it takes your test to run.                                                                                                                                                                                                        |
 
-{% swagger-parameter in="body" name="project_id" type="String" required="true" %}
-The ID of the project containing the test. This can be copied from your dashboard
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="suite_id" type="String" required="true" %}
-The ID of the suite to execute. This can be gotten from the test page
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="strategy" type="String" %}
-`await` or `callback` \
-Use `await` to make your runner wait until the suite done executing (This can make the request take a long while before returning, depending on the length of the test case). Use `callback` to return immediately (without the result of the run).\
-Default value is `await`
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="retry" type="String" %}
-Specify the number of times you want a failed test within the suite to be retried. Default is 0. Higher values will increase the time it takes your test to run.
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Sample response when using await strategy" %}
+{% tabs %}
+{% tab title="200: OK Sample response when using await strategy" %}
 ```json
 {
     "data": {
@@ -631,8 +597,8 @@ Specify the number of times you want a failed test within the suite to be retrie
     "message": "Suite run completed"
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 ### Sample request using cURL
 

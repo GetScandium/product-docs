@@ -22,6 +22,7 @@
   * [Test results](results/test-results.md)
   * [Suite results](results/suite-results.md)
 * [Why did my test fail?](why-did-my-test-fail.md)
+* [API Testing](api-testing.md)
 
 ## Test Management
 

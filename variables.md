@@ -14,17 +14,17 @@ You can assign the _value_ or _text content_ of a step's target element to a var
 
 To create a step variable (i.e assign a step to a variable), in the settings of a step, click on the "Assign to variable" button.
 
-<figure><img src=".gitbook/assets/image (14).png" alt=""><figcaption><p>Click on assign to variable button</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (14) (1).png" alt=""><figcaption><p>Click on assign to variable button</p></figcaption></figure>
 
 You will then be prompted to enter a name for the variable. This name is what you will use to reference the variable as we will soon see.
 
 When choosing a name for your variable, ensure you choose a name that is easy to read, unique and contains only alphanumeric characters.
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption><p>Give a name to your variable</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (15) (1).png" alt=""><figcaption><p>Give a name to your variable</p></figcaption></figure>
 
 Once you enter a name for your variable and save, you will see the variable name now reflecting in the settings panel.
 
-<figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 With the above steps, we have created a step variable, we will see shortly how to make use of the variable which we have created.
 
@@ -41,11 +41,11 @@ Differences between a step variable and a test variable
 
 To create a test variable, click on the test settings icon
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then click on the "Test case variable" tab
 
-<figure><img src=".gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (19) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can then click on the "Add new variable" to add a new variable. This will provide you with two new fields to enter the variable name and its value.
 
