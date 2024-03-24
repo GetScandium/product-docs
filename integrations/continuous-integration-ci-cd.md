@@ -21,7 +21,7 @@ Click on the projects dropdown, then click on the "View all" button
 
 From the list of projects displayed, click on the options (kebab menu) on the project card, then click on "Copy project id"
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>copy project id</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption><p>copy project id</p></figcaption></figure>
 
 **Test ID**
 
@@ -62,7 +62,6 @@ Body parameter is expected in JSON format
 | strategy                                      | String  | <p><code>await</code> or <code>callback</code> <br>Use <code>await</code> to make your runner wait until the test done executing (This can make the request take a long while before returning, depending on the length of the test case). Use <code>callback</code> to return immediately (without the result of the run).<br>Default value is <code>await</code></p> |
 | variables                                     | String  | A JSON object of key:value pairs that can be used to set or override existing global variables used in your test                                                                                                                                                                                                                                                       |
 | screenshot                                    | Boolean | <p><code>true</code> or <code>false</code><br>To determine if screenshots should be taken for each step in the run.<br>Note: screenshot will always be taken for a failed step in the test.</p>                                                                                                                                                                        |
-| retry                                         | Integer | Specify the number of times you want a failed test within the suite to be retried. Default is 0. Higher values will increase the time it takes your test to run.                                                                                                                                                                                                       |
 
 {% tabs %}
 {% tab title="200: OK " %}
@@ -129,6 +128,12 @@ curl --location 'https://scr.getscandium.com/tests/execute' \
 ## Execute a test suite
 
 Calling this endpoint allows you to immediately run a test suite. _A test suite is a collection of multiple test cases grouped for similar purposes_.
+
+{% hint style="info" %}
+**Note:** Executing test suites can take a long time to complete especially if there are so many test cases within the suite, and also depending on the load on our systems at the time of run. Your suite run time will also be affected if you setup multiple execution environments for the suite, as the suite will run all tests for each environment.
+
+&#x20;We’d suggest programming your request to deal with response times up to 10 minutes. If all the suite’s tests are not completed within 10 minutes, the API will send a timeout error (although your tests will still be running in the background).
+{% endhint %}
 
 ### Request
 

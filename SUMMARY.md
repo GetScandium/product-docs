@@ -24,6 +24,7 @@
   * [Suite results](results/suite-results.md)
 * [Why did my test fail?](why-did-my-test-fail.md)
 * [API Testing](api-testing.md)
+* [Mobile Application Testing](mobile-application-testing.md)
 
 ## Test Management
 

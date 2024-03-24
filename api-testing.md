@@ -6,7 +6,7 @@ description: Scandium makes it easy for you to test your APIs
 
 Create a basic API request
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 On the Scandium API runner interface, you are able to create a new API request. To create an API test, you need to select the method of the request and provide the API URL (endpoint).
 
