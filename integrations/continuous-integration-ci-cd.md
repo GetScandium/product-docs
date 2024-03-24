@@ -21,7 +21,7 @@ Click on the projects dropdown, then click on the "View all" button
 
 From the list of projects displayed, click on the options (kebab menu) on the project card, then click on "Copy project id"
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>copy project id</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption><p>copy project id</p></figcaption></figure>
 
 **Test ID**
 
