@@ -9,6 +9,7 @@
 
 * [Setting up your account](setting-up-your-account.md)
 * [Create a test case](create-a-test-case.md)
+* [Supported Actions](supported-actions.md)
 * [File uploads](file-uploads.md)
 * [Assertions](assertions.md)
 * [Groups](groups.md)
