@@ -12,4 +12,4 @@ Before you can begin to upload mobile apps for testing, you need to create a Mob
 
 On the project creation page, from the "project type" dropdown, select "Mobile" from the list.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Create a mobile project on Scandium</p></figcaption></figure>
