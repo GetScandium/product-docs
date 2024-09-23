@@ -57,5 +57,3 @@ zip -r {app name}.zip {app name}.app
 ## Troubleshooting
 
 If you are having trouble running your uploaded iOS app on Scandium, we recommend trying to run the same app on a simulator provided by Apple in Xcode.
-
-Once your simulator is launched, you can simply drag over the `app` into the simulator window.
