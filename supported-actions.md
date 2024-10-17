@@ -16,7 +16,7 @@ When recording your test case, you are likely to encounter elements which you ne
 
 However, with Scandium, you can record a hover step by simply right clicking on  the element that you need to hover on, then from the contextmenu (i.e right-click menu), select the "Add hover step" option of Scadium.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _Note:  When you add a hover step, there is a chance that the hover action might not be carried out successfully when you run test locally on your machine, depending on the kind of hover technology the element uses. This is because the browser limits scripts from being able to move mouse around physically on your machine for security reasons._
 >

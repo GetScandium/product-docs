@@ -35,7 +35,7 @@ When a data source is added to a test case, running the test case will run for e
 6.  Click on the Back arrow to go back to the list of steps\
 
 
-    <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

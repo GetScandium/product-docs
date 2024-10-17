@@ -26,11 +26,11 @@ Essentially, emails sent to `sdk.jeiuigghep@testmail.getscandium.com` and `testi
 
 An easy way to get the email pattern for your project is to visit the test creation page, then click on the Mail icon
 
-<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once you click on the mail icon, then click on the 'copy' icon in the popup revealed.
 
-<figure><img src=".gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The copied email can then be used wherever you need to receive email in your app. For example, it can be used in registration forms that need email.
 
@@ -40,11 +40,11 @@ If your registration form triggers an email e.g an activation email, Scandium wi
 
 When recording your test case, after performing an action that is supposed to trigger an email reception, click on the Mail Icon on the Scandium Toolbar in your recording window.
 
-<figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption><p>Mail icon on scandium toolbar</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1) (1).png" alt=""><figcaption><p>Mail icon on scandium toolbar</p></figcaption></figure>
 
 This will open up your mailbox. All the emails directed to your project email structure will be found in this mailbox and you can interact with it like any other web page. You can make assertions, do clicks and so on.
 
-<figure><img src=".gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Scandium email inbox</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (7) (1) (1).png" alt=""><figcaption><p>Scandium email inbox</p></figcaption></figure>
 
 ### Generating Dynamic Emails
 

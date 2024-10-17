@@ -24,16 +24,20 @@
   * [Suite results](results/suite-results.md)
 * [Why did my test fail?](why-did-my-test-fail.md)
 * [API Testing](api-testing/README.md)
+  * [Getting Started](api-testing/getting-started.md)
   * [API Suites](api-testing/api-suites.md)
   * [Scheduling and Monitoring](api-testing/scheduling-and-monitoring.md)
 * [Mobile Application Testing](mobile-application-testing/README.md)
+  * [Create a mobile project](mobile-application-testing/create-a-mobile-project.md)
   * [Uploading Apps](mobile-application-testing/uploading-apps/README.md)
     * [Android](mobile-application-testing/uploading-apps/android.md)
     * [iOS](mobile-application-testing/uploading-apps/ios.md)
+  * [Testing mobile app](mobile-application-testing/testing-mobile-app.md)
 
 ## Test Management
 
 * [Tests and Folders](test-management/tests-and-folders.md)
+* [Tags](test-management/tags.md)
 
 ## INTEGRATIONS
 
