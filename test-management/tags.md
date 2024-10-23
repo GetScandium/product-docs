@@ -20,15 +20,15 @@ For example, you can add a `Critical` label tag to tests that must run in your p
 2.  Click on 'Tags' from the popup menu\
 
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Clicks on tags</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Clicks on tags</p></figcaption></figure>
 3.  From the appearing modal, type in your desired tag/label name, and press Enter on your keyboard. You can also select from the list of existing tags.\
 
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Type in tag name</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Type in tag name</p></figcaption></figure>
 4.  Once you have added all your desired tags, click on the 'Save' button.\
 
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -40,7 +40,7 @@ To get test cases based on the tags assigned to them:
 2.  Click on the 'Filters' button\
 
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Click on Filters</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Click on Filters</p></figcaption></figure>
 
 
 3.  On the Filters modal, click on the 'Filter by Tags' dropdown, then select the tags you want to apply to your filter\

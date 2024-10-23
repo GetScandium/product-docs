@@ -26,7 +26,11 @@ Let's take a quick look at the available functions on Scandium:
 
 **Datetime**: To generate datetime value e.g _Mon Sep 11 2023 21:13:50 GMT+0100 (West Africa Standard Time)_
 
-#### Using a system function
+**Boolean**_:_ To generate one of _true_ or _false_.
+
+
+
+### Using a system function
 
 You can insert a function anywhere you can insert a variable. To use a function in the value of a text field, expand the settings of the step where you want to insert the function, then click on the "Insert function" button, and choose the desired function to insert.
 

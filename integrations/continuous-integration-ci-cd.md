@@ -21,13 +21,13 @@ Click on the projects dropdown, then click on the "View all" button
 
 From the list of projects displayed, click on the options (kebab menu) on the project card, then click on "Copy project id"
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>copy project id</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>copy project id</p></figcaption></figure>
 
 **Test ID**
 
 Applicable when you want to run a single test case. To get a test case's ID, from the tests listing page, find the desired test case, click on its options menu, then click on "Copy test Id"
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption><p>copy test id</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption><p>copy test id</p></figcaption></figure>
 
 **Suite ID**
 

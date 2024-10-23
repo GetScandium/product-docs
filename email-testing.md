@@ -26,7 +26,7 @@ Essentially, emails sent to `sdk.jeiuigghep@testmail.getscandium.com` and `testi
 
 An easy way to get the email pattern for your project is to visit the test creation page, then click on the Mail icon
 
-<figure><img src=".gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once you click on the mail icon, then click on the 'copy' icon in the popup revealed.
 
