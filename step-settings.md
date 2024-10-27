@@ -32,8 +32,18 @@ The following are options you can customize on a step.
    5. **Element contains text:** _This requires an additional css selector and a string to check for._ If the the element specified by the css selector contains the specified string, the step will be executed. If it doesn't contain the string, the step will be skipped.
    6. **Page title matches:** _This requires an additional page title string._ If the specified page title string matches the current page title, the step will be executed, otherwise, the step will be skipped.
    7. **Page URL matches:** _This requires an additional URL string._ If the current page URL matches the specified url string, the step will be executed, otherwise, the step will be skipped.
-7. Prestep delay: To set how long (in milliseconds) should Scandium wait for before attempting to execute the step.\
+7. **Prestep delay:** To set how long (in milliseconds) should Scandium wait for before attempting to execute the step.\
    _**Reminder: 1000 milliseconds = 1 second**_
 8. **Step timeout:** If a target element is not immediately found on a page, Scandium keeps trying to fetch the element until it either finds it or the timeout expires. If and after the timeout expires, Scandium will then report the step as a failure. You can control how long you want to Scandium to wait while attempting to fetch the target element of the step. This property is also in milliseconds.
 9. **Scroll into view:** To control what should happen if the target element is not currently within the visible viewport. If this setting is checked, Scandium will scroll to the element and show it within the viewport.
 10. **Delete:** To delete a step permanently. Use with caution, this action is irreversible. If you do not intend to permanently delete a step, use the "Never run" precondition.
+
+### Applying settings to multiple steps
+
+There are certain customizations that you might need to apply to multiple steps at a time. Settings like: prestep delay, step timeout, failure mode and wait mode.
+
+You can achieve this by ticking the checkboxes on the steps you want to edit, then click on the floating options icon (vertical ellipsis), then click on 'Edit' in the dropdown menu.
+
+Make the changes you want to apply.
+
+<figure><img src=".gitbook/assets/scandium edit multiple steps.gif" alt=""><figcaption><p>Edit multiple steps at once</p></figcaption></figure>
