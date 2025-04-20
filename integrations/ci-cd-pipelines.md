@@ -2,11 +2,12 @@
 description: >-
   On this page, you will find sample code and ways for integrating Scandium
   tests into come CI/CI pipeline.
+hidden: true
 ---
 
 # CI/CD pipelines
 
-> If your CI/CD pipeline example is not provided on this page, please feel free to reach out to us. You can do so via our [slack channel here](https://join.slack.com/t/scandiumcommunity/shared\_invite/zt-22yqencvp-K2l6IfNsL5ig\~Je4D3nGyA)
+> If your CI/CD pipeline example is not provided on this page, please feel free to reach out to us. You can do so via our [slack channel here](https://join.slack.com/t/scandiumcommunity/shared_invite/zt-22yqencvp-K2l6IfNsL5ig~Je4D3nGyA)
 
 ### Azure Devops
 

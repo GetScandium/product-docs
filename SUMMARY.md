@@ -42,4 +42,16 @@
 ## INTEGRATIONS
 
 * [Continuous Integration (CI/CD)](integrations/continuous-integration-ci-cd.md)
+* [Continuous Integration (CI/CD)](integrations/continuous-integration-ci-cd-1.md)
 * [CI/CD pipelines](integrations/ci-cd-pipelines.md)
+* [Azure Devops](integrations/azure-devops.md)
+* [Bamboo CI](integrations/bamboo-ci.md)
+* [Bitbucket Pipelines](integrations/bitbucket-pipelines.md)
+* [Circle CI](integrations/circle-ci.md)
+* [Github Actions](integrations/github-actions.md)
+
+***
+
+* [GitLab CI](gitlab-ci.md)
+* [Jenkins](jenkins.md)
+* [Travis CI](travis-ci.md)

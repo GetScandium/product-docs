@@ -2,6 +2,7 @@
 description: >-
   Automatically execute your Scandium tests within your existing Continuous
   Integration/Continuous Deployment pipeline.
+hidden: true
 ---
 
 # Continuous Integration (CI/CD)
