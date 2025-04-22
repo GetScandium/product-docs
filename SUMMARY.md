@@ -33,6 +33,7 @@
     * [Android](mobile-application-testing/uploading-apps/android.md)
     * [iOS](mobile-application-testing/uploading-apps/ios.md)
   * [Testing mobile app](mobile-application-testing/testing-mobile-app.md)
+* [Common Testing Scenarios](common-testing-scenarios.md)
 
 ## Test Management
 
