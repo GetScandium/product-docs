@@ -50,3 +50,12 @@ Tests where you have to get a dynamic verification code from an email inbox can 
 The video below shows a demonstration on how to handle OTP-email scenarios in your tests.
 
 {% embed url="https://youtu.be/__MgmPYFODk?list=PLT7WMc3V5c-AZoQh-ltV0NNRSI7xmB5_k" %}
+
+#### Can I export my Scandium test steps to other automation frameworks?
+
+Yes, Scandium allows you export an test case to any of:
+
+* Selenium
+* Playwright
+* Puppeteer
+
