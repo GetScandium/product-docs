@@ -34,6 +34,7 @@
     * [iOS](mobile-application-testing/uploading-apps/ios.md)
   * [Testing mobile app](mobile-application-testing/testing-mobile-app.md)
 * [Common Testing Scenarios](common-testing-scenarios.md)
+* [Handling Page Hydration Issues](handling-page-hydration-issues.md)
 
 ## Test Management
 

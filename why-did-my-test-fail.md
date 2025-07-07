@@ -1,4 +1,4 @@
-# Why did my test fail
+# Why did my test fail?
 
 When running tests, it is common for them to fail. Failure could be nailed down to two main reasons:
 
@@ -31,6 +31,7 @@ This is the most common error you will come across
 3. The element's selector (e.g ID) has been changed
 4. The previous step passed but the expected action did not occur. For example, if clicking on a Login button during test run is supposed to load a new page, but the username/password has changed. Clicking on the button was successful, but the login action itself wasn't successful, therefore, the next step after the login will fail.
 5. The target element takes a while to appear on the page.
+6. This could be caused by poor page hydration of the application under test. [Read here for how to handle page hydration issues with Scandium.](handling-page-hydration-issues.md)
 
 #### What can be done?
 
@@ -100,4 +101,8 @@ The element that was clicked on during recording caused the page to load, but du
 #### What can be done?
 
 Re-record the affected step and delete the old step.
+
+### Tab not found
+
+This error occurs because the tab where the step is to be executed got closed before the step could be executed.
 
