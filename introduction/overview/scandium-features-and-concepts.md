@@ -27,7 +27,7 @@ With folders, you can group related test cases for easier identification. Folder
 
 **Test Steps**
 
-A test case is made up of multiple test steps. When creating/recording a test, each action on your application is converted to a step. A step is also referred to as an Event. Examples of test steps include “click”, “type”, “mouse scroll” etc.\
+A test case is made up of multiple test steps. When creating/recording a test, each action on your application is converted to a step. A step is also referred to as an Event. Examples of test steps include [click](../../supported-actions.md#click), [type](../../supported-actions.md#form-inputs), mouse scroll, [drag and drop](../../supported-actions.md#drag-and-drop), [navigation](../../supported-actions.md#browser-navigation), [hover/mouseover](../../supported-actions.md#hover), [tab open/close](../../supported-actions.md#multiple-windows-and-tabs), [file upload](../../supported-actions.md#file-upload) etc.\
 
 
 **Test Runs**
@@ -41,4 +41,6 @@ You can run your test cases using the Scandium Browser Extension (which runs loc
 \
 
 
-NB: At the time of writing this article (07-03-2023), you can only run tests locally.
+~~NB: At the time of writing this article (07-03-2023), you can only run tests locally.~~
+
+You can now run your tests both locally and remotely.
