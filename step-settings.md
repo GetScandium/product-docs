@@ -17,9 +17,11 @@ The following are options you can customize on a step.
 1. **Title**: A descriptive title for the step
 2. **Text to Assign:** The input value of the step (if the target element of the step is an input editable field)
 3. **Target element:** CSS Selector string to identify the target element of the step.
-4. **Element mode**:
-   1. **Element should be visible**: The target element must be visible on the page i.e not hidden, not blocked by another element.
-   2. **Element should be actionable**: In addition to the target element being visible, it must also be actionable i.e not disabled or have readonly property.
+4. **Wait mode**: By default, Scandium tries to perform some visibility and actionability check on elements before making actions on the target element. It "waits" for these checks to be true before performing the action of the step. If these checks do not pass, the step fails with either an "`Element was found but wasn't visible`" error or "`Element was found but wasn't actionable`" error.
+   1. **Element should be visible**: The target element must be visible on the page i.e not hidden, not blocked/covered by another element.
+   2. **Element should be actionable**: In addition to the target element being visible, it must also be actionable i.e not disabled or have readonly property.\
+      \
+      If you uncheck both of these boxes, it means you are instructing Scandium to not check for these conditions before performing the action of the step. This is similar to _forcing clicks_ on frameworks like Playwright (`locator.click({force: true})`), Cypress (`cy.get('@closeBtn').click({ force: true })`).
 5. **Failure mode (When this step fails):** Determines what should happen to the test if the step fails. There are three (3) modes available:
    1. **Fail test immediately:** The test will be aborted and reported as failed. Steps after the failed step will not be executed.
    2. **Fail and continue:** The test will be reported as failed, but test will not be aborted. Steps after the failed step will still be executed.
